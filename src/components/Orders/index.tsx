@@ -6,12 +6,12 @@ const orders: Order[] = [
   {
     '_id': '6372e48c',
     'table': '123',
-    'status': 'DONE',
+    'status': 'WAITING',
     'products': [
       {
         'product': {
           'name': 'Pizza quatro queijos',
-          'imagePath': 'https:dummyimage.com/150',
+          'imagePath': '1668559121649-quatro-queijos.png',
           'price': 40,
         },
         'quantity': 3,
@@ -20,7 +20,7 @@ const orders: Order[] = [
       {
         'product': {
           'name': 'Coca Cola',
-          'imagePath': 'https:dummyimage.com/48',
+          'imagePath': '1668558998408-chicken.png',
           'price': 7.5,
         },
         'quantity': 2,

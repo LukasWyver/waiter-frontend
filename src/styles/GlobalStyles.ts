@@ -54,8 +54,9 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   button {
+    color: #333;
+    outline: none;
     cursor: pointer;
     font-size: 1rem;
-    color: #333;
   }
 `;
